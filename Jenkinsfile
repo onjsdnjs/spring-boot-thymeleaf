@@ -1,5 +1,4 @@
 node {
- git poll: true, url: 'https://github.com/onjsdnjs/spring-boot-thymeleaf.git'
  withCredentials([[$class: 'UsernamePasswordMultiBinding',
  credentialsId: 'onjsdnjs2',
  usernameVariable: 'DOCKER_USER_ID',
