@@ -4,7 +4,6 @@ node {
  usernameVariable: 'DOCKER_USER_ID',
  passwordVariable: 'DOCKER_USER_PASSWORD']]) {
  stage('Pull') {
-     stage('Pull') {
      git 'https://github.com/onjsdnjs/spring-boot-thymeleaf.git'
  }
 
